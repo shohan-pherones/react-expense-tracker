@@ -1,0 +1,14 @@
+.App {
+  max-width: 80vw;
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    max-width: 95vw;
+    margin: 5rem auto;
+  }
+}
