@@ -1,5 +1,5 @@
 .new-expense {
-  background-color: salmon;
+  background-color: teal;
   padding: 2rem;
   border-radius: 10px;
 }
@@ -23,7 +23,7 @@
 }
 
 label {
-  color: #212121;
+  align-self: flex-start;
   font-weight: 600;
   cursor: pointer;
 }

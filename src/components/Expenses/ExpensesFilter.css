@@ -1,0 +1,20 @@
+.expenses-filter__control {
+  display: flex;
+  gap: 2rem;
+}
+
+select {
+  background-color: #fafafa;
+  font-family: inherit;
+  font-size: 1.5rem;
+  color: #212121;
+  font-weight: 500;
+  padding: 0 0.5rem;
+  border-radius: 5px;
+  outline: 5px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+select:focus {
+  outline-color: rgba(0, 0, 0, 0.3);
+}

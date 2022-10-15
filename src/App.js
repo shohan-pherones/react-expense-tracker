@@ -4,7 +4,7 @@ import NewExpenses from "./components/NewExpenses/NewExpenses";
 import "./App.css";
 
 const App = () => {
-  const expenses = [
+  const expensesArr = [
     {
       id: "e1",
       title: "Internet Bill",
@@ -31,10 +31,19 @@ const App = () => {
     },
   ];
 
+  const expenseDataHandler = (data) => {
+    const expenses = {
+      ...data,
+      id: Math.random().toString(),
+    };
+
+    console.log(expenses);
+  };
+
   return (
     <div className="App">
-      <NewExpenses />
-      <Expenses items={expenses} />
+      <NewExpenses expenseDataReceiver={expenseDataHandler} />
+      <Expenses items={expensesArr} />
     </div>
   );
 };

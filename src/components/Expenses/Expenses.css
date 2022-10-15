@@ -3,7 +3,6 @@
   flex-direction: column;
   gap: 2rem;
   padding: 2rem;
-  background-color: rgba(255, 99, 71, 0.2);
-  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.1);
+  background-color: teal;
   border-radius: 10px;
 }

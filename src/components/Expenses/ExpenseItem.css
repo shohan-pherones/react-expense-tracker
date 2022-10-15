@@ -2,7 +2,7 @@
   display: flex;
   gap: 2rem;
   align-items: center;
-  background-color: orangered;
+  background-color: turquoise;
   padding: 2rem;
   border-radius: 5px;
 }
@@ -17,10 +17,11 @@
 .expense-item__description h2 {
   font-size: 2rem;
   font-weight: 600;
+  color: #212121;
 }
 
 .expense-item__price {
-  background-color: tomato;
+  background-color: teal;
   font-size: 2rem;
   font-weight: 600;
   padding: 1rem 2rem;
