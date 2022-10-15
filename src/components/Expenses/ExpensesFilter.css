@@ -3,14 +3,20 @@
   gap: 2rem;
 }
 
+.filter-text {
+  font-weight: 500;
+  align-self: center;
+}
+
 select {
   background-color: #fafafa;
   font-family: inherit;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: #212121;
   font-weight: 500;
-  padding: 0 0.5rem;
-  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3px;
+  border: none;
   outline: 5px solid transparent;
   transition: all 0.3s ease-in-out;
 }
