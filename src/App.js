@@ -15,7 +15,7 @@ const DUMMY_EXPENSES = [
     id: "e2",
     title: "Electricity Bill",
     amount: 1459,
-    date: new Date(2022, 9, 5),
+    date: new Date(2022, 8, 5),
   },
   {
     id: "e3",

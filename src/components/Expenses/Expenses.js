@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ExpenseItem from "./ExpenseItem";
 import ExpensesFilter from "./ExpensesFilter";
+import ExpensesChart from "./ExpensesChart";
 
 import "./Expenses.css";
 
@@ -22,7 +23,11 @@ const Expenses = (props) => {
         onChangeFilter={filterChangeHandler}
       />
 
-      {filteredExpenses.length === 0 && <p>No expenses found.</p>}
+      <ExpensesChart expenses={filteredExpenses} />
+
+      {filteredExpenses.length === 0 && (
+        <p className="expenses-fallback">No expenses found! 😢</p>
+      )}
 
       {filteredExpenses.length > 0 &&
         filteredExpenses.map((item) => (

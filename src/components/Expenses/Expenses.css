@@ -6,3 +6,10 @@
   background-color: teal;
   border-radius: 10px;
 }
+
+.expenses-fallback {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 2rem 0;
+}
